@@ -1,16 +1,20 @@
-### Hi there 👋
+##Hey, I'm Noè (pronounced No-way 😉)
 
-<!--
-**noe-vhh/noe-vhh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class GitHubProfile:
+    def __init__(self, username="noe-vhh"):
+        self.username = username
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def bio(self):
+        return f"""
+        👩‍💻 {self.username} | BCom IT Management student
+        🎓 Aspiring Honours & Master's in AI
+        💾 Exploring the binary brilliance of code and management synergy
+        🏃‍♀️ Secretly a running enthusiast, because coding marathons aren't enough!
+        🤓 Undercover nerd
+        😅 OCD level: Perfectly aligned code and logically sorted study notes
+        #TechEnthusiast #CodeCrafting #RunningGeek
+        """
+# Instantiate your GitHub profile
+myProfile = GitHubProfile(username="noe-vhh")
+# Display the bio
+print(myProfile.bio())
