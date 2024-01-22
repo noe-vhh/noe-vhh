@@ -1,20 +1,24 @@
-##Hey, I'm Noè (pronounced No-way 😉)
+public class GitHubProfile {
+    private String username;
 
-class GitHubProfile:
-    def __init__(self, username="noe-vhh"):
-        self.username = username
+    public GitHubProfile(String username) {
+        this.username = username;
+    }
 
-    def bio(self):
-        return f"""
-        👩‍💻 {self.username} | BCom IT Management student
-        🎓 Aspiring Honours & Master's in AI
-        💾 Exploring the binary brilliance of code and management synergy
-        🏃‍♀️ Secretly a running enthusiast, because coding marathons aren't enough!
-        🤓 Undercover nerd
-        😅 OCD level: Perfectly aligned code and logically sorted study notes
-        #TechEnthusiast #CodeCrafting #RunningGeek
-        """
-# Instantiate your GitHub profile
-myProfile = GitHubProfile(username="noe-vhh")
-# Display the bio
-print(myProfile.bio())
+    public String bio() {
+        return String.format(
+            "- BCom IT Management student 🎓%n" +
+            "- Aspiring Honours & Master's in AI 🚀%n" +
+            "- Exploring the binary brilliance of code and management synergy 💾%n" +
+            "- Secretly a running enthusiast, because coding marathons aren't enough! 🏃‍♀️%n" +
+            "- Undercover nerd 🤓%n" +
+            "- 😅 OCD level: Perfectly aligned code and logically sorted study notes%n" +
+            "- #TechEnthusiast #CodeCrafting #RunningGeek"
+        );
+    }
+
+    public static void main(String[] args) {
+        GitHubProfile myProfile = new GitHubProfile("noe-vhh");
+        System.out.println(myProfile.bio());
+    }
+}
