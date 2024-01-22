@@ -7,6 +7,7 @@ public class GitHubProfile {
 
     public String bio() {
         return String.format(
+            "- Born 🇳🇱 | Raised 🇿🇦%n" +
             "- BCom IT Management student 🎓%n" +
             "- Aspiring Honours & Master's in AI 🚀%n" +
             "- Exploring the binary brilliance of code and management synergy 💾%n" +
