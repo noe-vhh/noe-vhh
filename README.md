@@ -59,4 +59,4 @@
 
 </br>
 
-![Noè's GitHub stats](https://github-readme-stats.vercel.app/api?username=noe-vhh&show_icons=true&theme=apprentice) [![Noè's GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noe-vhh&theme=apprentice&border_radius=60&mode=weekly)](https://git.io/streak-stats)
+![Noè's GitHub stats](https://github-readme-stats.vercel.app/api?username=noe-vhh&show_icons=true&theme=apprentice)
