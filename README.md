@@ -59,4 +59,4 @@
 
 </br>
 
-![Noè's GitHub stats](https://github-readme-stats.vercel.app/api?username=noe-vhh&show_icons=true&theme=apprentice)
+![Noè's GitHub stats](https://github-readme-stats.vercel.app/api?username=noe-vhh&show_icons=true&theme=apprentice) ![Codewars](https://github.r2v.ch/codewars?user=KnightLight&stroke=#ffffaf)
