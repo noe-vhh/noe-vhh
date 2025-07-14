@@ -53,8 +53,9 @@
 
 </br>
 
+* Postgraduate Diploma in Artificial Intelligence 🤖
 * BCom IT Management student 🎓
-* Aspiring Honours & Master's Degrees in AI 🚀
+* Aspiring Master's Degrees in AI 🚀
 * A running enthusiast, because coding marathons aren't enough! 🏃‍♀️
 
 </br>
